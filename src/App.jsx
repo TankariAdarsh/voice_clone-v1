@@ -5,8 +5,8 @@ function App() {
   const [text, setText] = useState("");
   const [audioUrl, setAudioUrl] = useState("");
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState("");
-
+  const [ , setStatus] = useState("");
+  
 
  const handleGenerate = async () => {
     setLoading(true);
